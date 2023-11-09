@@ -1,0 +1,135 @@
+ #login, #signUp {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  align-items: center;
+}
+
+#login-page, #signUp-page{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#login-page .login-left, #signUp-page .signUp-left {
+    margin: 5rem 0 0 15rem;
+    padding: 5rem 18rem;
+}
+
+#login-page .login-left .head, #signUp-page .signUp-left .head {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.login-left .user-input, .signUp-left .user-input {
+  position: relative;
+}
+
+.login-left .user-input i, .signUp-left .user-input i{
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 2.2rem;
+  left: 1rem;
+  color: #CD201F;
+}
+
+.user-input input,
+.but {
+  width: 25rem;
+  height: 2.8rem;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin: 1.5rem 0;
+  outline: 0;
+  padding: 0 3rem;
+}
+
+.user-input input:focus {
+  border-color: #CD201F;
+}
+
+
+
+.login-left .pass, .signUp-left .pass  {
+  display: flex;
+  justify-content: space-between;
+}
+.pass .r-pass {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pass .r-pass input {
+  width: 1rem;
+}
+
+.pass .r-pass{
+  margin-left: .7rem;
+}
+
+.pass label{
+  margin: .4rem;
+  transition: .4s all ease;
+  cursor: pointer;
+}
+.pass label:hover{
+  color: rgb(243, 8, 51);
+}
+
+#check{
+  pointer-events: none;
+}
+#check:checked{
+  accent-color: rgb(243, 8, 51);
+}
+
+
+
+.login-btn button, .signUp-btn button {
+  background: rgb(243, 8, 51);
+  border: 2px solid rgb(243, 8, 51);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  color: #fff;
+}
+
+.login-left .dont .sin, .signUp-left .dont .sin{
+    text-align: center;
+    text-decoration: underline;
+    transition: .4s all ease;
+    color: #fff;
+}
+
+.pass .f-pass .p1{
+  color: #fff;
+  margin: .4rem;
+  transition: .4s all ease;
+}
+.pass .f-pass .p1:hover, .dont .sin:hover{
+    color: rgb(243, 8, 51);
+  }
+
+#login-page .login-right, #signUp-page .signUp-right{
+    position: relative;
+}
+
+
+
+
+/* Here is Only SignUp */
+.signUp-left .user-input i{
+  bottom: 1.7rem;
+}
+#signUp-page .signUp-left{
+  margin-top: 2rem;
+}
+#signUp-page .user-input input{
+  margin: 1rem 0;
+}
+.signUp-btn button{
+  margin: 1.5rem 0;
+}

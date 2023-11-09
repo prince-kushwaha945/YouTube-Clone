@@ -1,0 +1,21 @@
+#profile{
+    position: relative;
+    /* display: none; */
+
+}
+.pro h4{
+    width: 6rem;
+    height: 2.2rem;
+    border: 2px solid red;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: -1rem;
+    right: .1rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: .4s all ease;
+}
